@@ -1,0 +1,15 @@
+html
+<img class="forma" src="/blogformamundo.png" />
+<p>Lorem ipsum…</p>
+
+css
+.forma{
+shape-outside: url(formamundo.png);
+shape-image-threshold: 0.5;
+shape-margin: 20px;
+float: left;
+}
+
+shape-outside. Permite indicar la imagen de la forma que se debe usar para adaptar aquellos elementos que que aparezcan al lado.
+shape-image-threshold. Permite definir a partir de cuándo se entiende que sebe adaptarse la imagen, ajustando a la transparencia. 0.5 indica que el límite para adaptar el texto será cuando la transparencia sea del 50%.
+shape-margin. Sirve para provocar un espaciado entre la forma y los elementos que se coloquen al lado.
